@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
+//TEST RUNNING FUNCTIONALITY, CANCEL METHOD
 public class DemoBench implements IBenchmark{
 
     // select sort
