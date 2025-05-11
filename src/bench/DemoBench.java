@@ -87,4 +87,14 @@ public class DemoBench implements IBenchmark{
         running = false;
 
     }
+
+    @Override
+    public void warmUp() {
+
+    }
+
+    @Override
+    public String getResult() {
+        return "";
+    }
 }

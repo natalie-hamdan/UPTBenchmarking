@@ -9,5 +9,6 @@ public interface IBenchmark {
 
     void clean(); // operations after the run, also not supposed to be measured
     void cancel();
-
+    void warmUp();
+    String getResult();
 }
